@@ -9,7 +9,7 @@
         <p v-if="errorMessage" class="error-message">{{ errorMessage }}</p>
         <input v-model="user.username" type="text" placeholder="Username" class="input-field" required>
         <input v-model="user.password" type="password" placeholder="Password" class="input-field" required>
-        <button type="submit" class="login-button">REGISTER</button>
+        <button type="submit" class="login-button">Senregistrer</button>
         <p class="register-text">
           Already have an account? <router-link to="/login">Login now!</router-link>
         </p>
@@ -17,6 +17,7 @@
     </div>
   </div>
 </template>
+
 
 <script setup>
 import { ref } from 'vue';
